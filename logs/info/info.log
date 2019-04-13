@@ -72,3 +72,64 @@
 [INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 36]IP : 0:0:0:0:0:0:0:1
 [INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 45]---------------response----------------
 [INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 47]RESPONSE : [com.xianglei.pojo.User@24ee2037, com.xianglei.pojo.User@61ecaace]
+[INFO] [2019-04-13 21:41:54][com.xianglei.App - 48]Starting App on Xxianglei with PID 9456 (C:\Users\Administrator\Desktop\Springboot\target\classes started by 程序员快乐的秘密 in C:\Users\Administrator\Desktop\Springboot)
+ [INFO] [2019-04-13 21:41:54][com.xianglei.App - 593]No active profile set, falling back to default profiles: default
+ [INFO] [2019-04-13 21:41:54][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dde5c8c: startup date [Sat Apr 13 21:41:54 CST 2019]; root of context hierarchy
+ [INFO] [2019-04-13 21:41:54][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+ [INFO] [2019-04-13 21:41:55][com.atomikos.logging.LoggerFactory - 16]Using Slf4J for logging.
+ [INFO] [2019-04-13 21:41:55][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+ [INFO] [2019-04-13 21:41:56][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1901 ms
+ [INFO] [2019-04-13 21:41:56][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+ [INFO] [2019-04-13 21:41:56][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+ [INFO] [2019-04-13 21:41:56][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ [INFO] [2019-04-13 21:41:56][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ [INFO] [2019-04-13 21:41:56][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+ [INFO] [2019-04-13 21:41:57][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dde5c8c: startup date [Sat Apr 13 21:41:54 CST 2019]; root of context hierarchy
+ [INFO] [2019-04-13 21:41:57][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/xl/getlist]}" onto public java.lang.String com.xianglei.controller.WelcomeBootController.getAll(org.springframework.ui.Model)
+ [INFO] [2019-04-13 21:41:57][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ [INFO] [2019-04-13 21:41:57][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ [INFO] [2019-04-13 21:41:57][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ [INFO] [2019-04-13 21:41:57][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ [INFO] [2019-04-13 21:41:57][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ [WARN] [2019-04-13 21:41:57][com.atomikos.icatch.config.UserTransactionServiceImp - 12]No properties path set - looking for transactions.properties in classpath...
+ [WARN] [2019-04-13 21:41:57][com.atomikos.icatch.config.UserTransactionServiceImp - 12]transactions.properties not found - looking for jta.properties in classpath...
+ [WARN] [2019-04-13 21:41:57][com.atomikos.icatch.config.UserTransactionServiceImp - 12]Failed to open transactions properties file - using default values
+ [INFO] [2019-04-13 21:41:57][com.atomikos.persistence.imp.StateRecoveryManagerImp - 16]com.atomikos.persistence.imp.WriteAheadObjectLog instantiation failed - falling back to default
+ [INFO] [2019-04-13 21:41:57][com.atomikos.persistence.imp.AbstractLogStream - 16]Logfile closed: C:\Users\Administrator\Desktop\Springboot\transaction-logs\tmlog-1.log
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING core version: 3.9.3
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.automatic_resource_registration = true
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.client_demarcation = false
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.threaded_2pc = false
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.serial_jta_transactions = true
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.serializable_logging = true
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.log_base_dir = C:\Users\Administrator\Desktop\Springboot\transaction-logs
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.max_actives = 50
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.checkpoint_interval = 500
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.enable_logging = true
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.output_dir = .\
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.log_base_name = tmlog
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.max_timeout = 300000
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.tm_unique_name = 192.168.1.107.tm
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING java.naming.provider.url = rmi://localhost:1099
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+ [INFO] [2019-04-13 21:41:57][com.atomikos.icatch.config.imp.AbstractUserTransactionService - 16]USING com.atomikos.icatch.default_jta_timeout = 10000
+ [INFO] [2019-04-13 21:41:57][org.springframework.transaction.jta.JtaTransactionManager - 490]Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionManager@1f387978
+ [INFO] [2019-04-13 21:41:57][org.springframework.transaction.jta.JtaTransactionManager - 501]Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@1f387978
+ [INFO] [2019-04-13 21:41:58][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+ [INFO] [2019-04-13 21:41:59][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+ [INFO] [2019-04-13 21:41:59][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 916]Bean with name 'dataSource' has been autodetected for JMX exposure
+ [INFO] [2019-04-13 21:41:59][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 671]Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+ [INFO] [2019-04-13 21:41:59][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+ [INFO] [2019-04-13 21:41:59][com.xianglei.App - 57]Started App in 5.359 seconds (JVM running for 10.36)
+ [INFO] [2019-04-13 21:42:00][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+ [INFO] [2019-04-13 21:42:01][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+ [INFO] [2019-04-13 21:42:01][com.xianglei.aspect.WebLogAspect - 33]---------------request----------------
+ [INFO] [2019-04-13 21:42:01][com.xianglei.aspect.WebLogAspect - 34]URL : http://localhost:8080/xl/getlist
+ [INFO] [2019-04-13 21:42:01][com.xianglei.aspect.WebLogAspect - 35]HTTP_METHOD : GET
+ [INFO] [2019-04-13 21:42:01][com.xianglei.aspect.WebLogAspect - 36]IP : 0:0:0:0:0:0:0:1
+ [INFO] [2019-04-13 21:42:01][com.alibaba.druid.pool.DruidDataSource - 715]{dataSource-1} inited
+ [INFO] [2019-04-13 21:42:01][com.xianglei.aspect.WebLogAspect - 45]---------------response----------------
+ [INFO] [2019-04-13 21:42:01][com.xianglei.aspect.WebLogAspect - 47]RESPONSE : [com.xianglei.pojo.User@3bdaa282, com.xianglei.pojo.User@10f57d90]
+ 

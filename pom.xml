@@ -114,7 +114,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.gyf.App</mainClass>
+                    <mainClass>com.xianglei.App</mainClass>
                 </configuration>
                 <executions>
                     <execution>
