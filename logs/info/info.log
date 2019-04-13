@@ -60,3 +60,15 @@
 [INFO] [2019-04-13 20:39:13][com.alibaba.druid.pool.DruidDataSource - 715]{dataSource-1} inited
 [INFO] [2019-04-13 20:39:14][com.xianglei.aspect.WebLogAspect - 45]---------------response----------------
 [INFO] [2019-04-13 20:39:14][com.xianglei.aspect.WebLogAspect - 47]RESPONSE : [com.xianglei.pojo.User@5a82bcb2, com.xianglei.pojo.User@6e37762d]
+[INFO] [2019-04-13 20:45:12][com.xianglei.aspect.WebLogAspect - 33]---------------request----------------
+[INFO] [2019-04-13 20:45:12][com.xianglei.aspect.WebLogAspect - 34]URL : http://localhost:8080/xl/getlist
+[INFO] [2019-04-13 20:45:12][com.xianglei.aspect.WebLogAspect - 35]HTTP_METHOD : GET
+[INFO] [2019-04-13 20:45:12][com.xianglei.aspect.WebLogAspect - 36]IP : 0:0:0:0:0:0:0:1
+[INFO] [2019-04-13 20:45:12][com.xianglei.aspect.WebLogAspect - 45]---------------response----------------
+[INFO] [2019-04-13 20:45:12][com.xianglei.aspect.WebLogAspect - 47]RESPONSE : [com.xianglei.pojo.User@40888da8, com.xianglei.pojo.User@2071bbcd]
+[INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 33]---------------request----------------
+[INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 34]URL : http://localhost:8080/xl/getlist
+[INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 35]HTTP_METHOD : GET
+[INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 36]IP : 0:0:0:0:0:0:0:1
+[INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 45]---------------response----------------
+[INFO] [2019-04-13 20:53:05][com.xianglei.aspect.WebLogAspect - 47]RESPONSE : [com.xianglei.pojo.User@24ee2037, com.xianglei.pojo.User@61ecaace]
